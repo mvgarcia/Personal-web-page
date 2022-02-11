@@ -8,77 +8,166 @@
     <meta name="description" content="Hola! Soy Valentina, estudiante de Física e Ingeniería de Sistemas, y esta es mi página web personal.">
     <link rel="shortcut icon" href="./images/icon2.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="./styles.css">
     <title>M. V. Garcia</title>
 </head>
 <body>
     <header>
-        <div class="container text-center">
-            <h1>María Valentina García Alvarado</h1>
-        </div>
+        <h1 class="header-text">María Valentina García Alvarado</h1>
+        
     </header>
-    <nav class="menu">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#biografia">Biography</a></li>
-            <li><a href="#Education">Education</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#intereses">Interests</a></li>
-            <li><a href="#footer">Contact</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light centrar-horizontal">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#"><img class="icons" src="./images/pagina-de-inicio.png" alt="Home logo"> Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#biografia"><img class="icons" src="./images/biografia.png" alt="Biography logo"> Biography</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Education"><img class="icons" src="./images/education.png" alt="Education logo"> Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Projects"><img class="icons" src="./images/cohete.png" alt="Projects logo"> Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#intereses"><img class="icons" src="./images/puzzle.png" alt="Interests logo"> Interests</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Contact"><img class="icons" src="./images/correo-electronico.png" alt="Contact logo"> Contact</a></li>
         </ul>
     </nav>
     <main>
-        <hr>
+
         <section id="biografia">
             <h2>About me</h2>
-            <div class="row">
-                <div class="col-2">
-                    <img src="./images/mvgarcia.jpeg" alt="Imagen de perfil" height="400">
-                </div>
-                <div class="col-8 text-center">
-                    <p>I'm Valentina, a 21 year old Colombian undergraduate student at Universidad de los Andes. I'm currently based on Bogotá-Colombia. I am curious about other cultures and love learning new things. </p>
+            <div class="row centrar-horizontal">
+                <div class="col-6 text-center">
+                    <img class="mvgarcia" src="./images/mvgarcia.jpeg" alt="Imagen de perfil" >
+                    <p>I'm Valentina, a 21 year old Colombian undergraduate student at Universidad de los Andes. 
+                      I'm currently based on Bogotá-Colombia. I am curious about other cultures and love learning new things. 
+                      I speak Spanish
+                      <img src="./images/spain.png" alt="Spain flag" class="icons">
+                      as my native language, English 
+                      <img src="./images/united-kingdom.png" alt="UK flag" class="icons">
+                      and a bit of French
+                      <img class="icons" src="./images/france.png" alt="France flag">. <br>
+                      You can see my complete CV 
+                      <a href="./CV M. V. García-Alvarado.pdf" download="">here</a>.
+                    </p>
                 </div>
             </div>
+            
         </section>
-        <hr>
-        <h2 id="Education">Academic information</h2>
-        <ul>
-            <li>Education: Physics/Software Engineering</li>
-            <li>University: Universidad de los Andes</li>
-            <li>Areas: Astronomy and Data Science</li>
-            <li>Research: 
-                <ul>
-                    <li>Cosmology</li>
-                    <li>Star Formation</li>
-                </ul>
-            </li>
-        </ul>
+
+        <h2 id="Education">Education</h2>
+        <div class="row">
+          <div class="col centrar-horizontal">
+            <img src="./images/uniandes.jpg" alt="Uniandes photo" class="education-image">
+          </div>
+          <div class="col centrar-vertical">
+            <h3>Degrees</h3><br>
+            <p>Undergraduate student at Universidad de los Andes in Bogotá-Colombia. Majoring in:</p>
+            <br>
+            <ul>
+              <li class="education-list">Physics (2018-now)</li>
+              <li class="education-list">Software Engineering (2019-now)</li>
+              <li class="education-list">Minor in Astronomy</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col centrar-vertical">
+            <h3>Research</h3><br>
+            <p>Interested in the areas of:</p>
+            <ul>
+              <li class="education-list">Astronomy</li>
+              <ul>
+                <li class="education-list">Cosmology</li>
+                <li class="education-list">Star Formation and Evolution</li>
+                <li class="education-list">Galaxy Formation and Evolution</li>
+              </ul>
+              <li class="education-list">Computer Science</li>
+            </ul>
+          </div>
+          <div class="col centrar-horizontal">
+            <img src="./images/areas.jpg" alt="NASA's picture" class="education-image">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col centrar-horizontal">
+            <img src="./images/programming.jpg" alt="Code image" class="education-image">
+          </div>
+          <div class="col centrar-vertical">
+            <h3>Programming languages</h3><br>
+            <ul>
+              <li class="education-list">Python<img src="./images/python.png" alt="Python logo" class="icons"></li>
+              <li class="education-list">Java<img src="./images/java.png" alt="Java logo" class="icons"></li>
+              <li class="education-list">C/C++<img src="./images/c-.png" alt="C++ logo" class="icons"></li>
+              <li class="education-list">SQL<img src="./images/sql-server.png" alt="SQL logo" class="icons"></li>
+              <li class="education-list">LaTeX<img src="./images/LaTeX_logo.png" alt="LaTeX logo" class="icons"></li>
+            </ul>
+          </div>
+        </div>
+        
+
         <h2 id="Projects">Projects</h2>
-        <ul>
-            <a href="https://doi.org/10.1093/mnrasl/slaa145">Cosmology: The cosmic web through the lens of graph entropy</a><br>
-            <a href="http://cosmicorigins.space/cassum21">Star Formation:Structural analysis of massive protoclusters</a><br>
-            <a href="https://www.shespeaksscience.com/penta/">PENTA</a>
-        </ul>
-        <hr>
+        
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <h5 class="card-header">Cosmology</h5>
+              <div class="card-body">
+                <h5 class="card-title">The cosmic web through the lens of graph entropy</h5>
+                <div class="centrar-horizontal">
+                  <img class="project-image" src="./images/Beta.png" alt="Beta Skeleton image">
+                </div>
+                <p class="card-text">An analysis of the cosmic web using properties of graphs. Applied the beta-skeleton graph on simulated dark matter halos and measured its graph entropy. 
+                  We found the correlation between the entropy and quantities such as the cosmological parameters.</p>                
+                <a href="https://doi.org/10.1093/mnrasl/slaa145" class="btn btn-primary">See more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <h5 class="card-header">Star Formation</h5>
+              <div class="card-body">
+                <h5 class="card-title">Structural analysis of massive protoclusters</h5>
+                <div class="centrar-horizontal">
+                  <img class="project-image" src="./images/voldens_rainbow.gif" alt="Simulation gif">
+                </div>
+                <p class="card-text">An study of the structure of evolving massive protoclusters using properties of graphs to determine properties of the parent molecular cloud. 
+                  Applied dendrogram to identify protostellar cores at different stages of evolution and compute its Minimum Spanning Tree. 
+                  We computed quantities such as the mass segregation of the cluster and analyzed the spatial distribution of the cores.
+                </p>
+                <a href="http://cosmicorigins.space/cassum21" class="btn btn-primary">See more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <h5 class="card-header">Mentorship</h5>
+              <div class="card-body">
+                <h5 class="card-title">PENTA</h5>
+                <div class="centrar-horizontal">
+                  <img class="project-image" src="./images/PENTA.png" alt="Penta image">
+                </div>
+                <p class="card-text">Participant of the mentorship program supported by the University of Cambridge and the IAU. 
+                  After a competitive selection, I was one of the 33 women selected from all around the world to mentor a girl and be mentored by another woman in STEM. 
+                  This program aims to create a community of empowered women by giving advice and supporting each other.</p>
+                <a href="https://www.shespeaksscience.com/penta/" class="btn btn-primary">See more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <h2 id="intereses">Interests</h2>
         <div class="row">
             <div class="col text-center">
                 <h3>Tenis</h3>
-                <img src="./images/tenis2.jpg" alt="Imagen de tenis" height="300" width="450">
+                <img class="interest-image" src="./images/tenis2.jpg" alt="Imagen de tenis" >
             </div>
             <div class="col text-center">
                 <h3>Astronomy</h3>
-                <iframe  height="300" width="450" src="https://www.youtube.com/embed/0oYVRD9j6vs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="interest-image" src="https://www.youtube.com/embed/0oYVRD9j6vs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col text-center">
                 <h3>Puzzles</h3>
-                <iframe  height="300" width="450" src="https://www.youtube.com/embed/Dnpgtsj9O7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="interest-image" src="https://www.youtube.com/embed/Dnpgtsj9O7Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>       
-        
-        
-        <hr>
-        <h2>Contact</h2>
+
+        <h2 id="Contact">Contact</h2>
         <form action="">
             <ul>
                 <div class="row g-2 align-items-center">
@@ -105,7 +194,6 @@
 
             </ul>
         </form>
-        <hr>
     </main>
 
     <footer id="footer">
@@ -113,9 +201,9 @@
             <p> Created by María Valentina García &copy;  2022<br>
                 <!-- <a href="mailto:mv.garcia@uniandes.edu.co"> <img src="./images/email.png" alt="" width="30"></a><br>   -->
                 Follow me: 
-                <a class="social" href="https://github.com/mvgarcia"> <img  src="./images/github.png" alt="Github logo" width="30"></a>
-                <a class="social" href="https://www.instagram.com/valega26/"> <img src="./images/instagram.png" alt="Instagram logo" width="30"></a>
-                <a class="social" href="https://twitter.com/valega26"><img src="./images/twitter.png" alt="Twitter logo" width="30"></a>
+                <a href="https://github.com/mvgarcia"> <img class="icons" src="./images/github.png" alt="Github logo"></a>
+                <a href="https://www.instagram.com/valega26/"> <img class="icons" src="./images/instagram.png" alt="Instagram logo"></a>
+                <a href="https://twitter.com/valega26"><img class="icons" src="./images/twitter.png" alt="Twitter logo"></a>
             </p>
         </div>
         
