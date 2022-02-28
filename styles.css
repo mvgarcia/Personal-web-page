@@ -50,6 +50,7 @@ li{
     color: black;
     display: flex;
     align-items: center;
+    font-size: x-large;
  }
  
  .education-list{
@@ -105,5 +106,13 @@ li{
 
 a{
     color: #6d4f59fd;
+}
+
+p{
+    font-size: x-large;
+}
+
+.p-card{
+    font-size: large;
 }
 
