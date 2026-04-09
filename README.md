@@ -1,25 +1,12 @@
 # Personal-web-page María Valentina García-Alvarado
 
+
+
 <h3> URL: https://mvgarcia.github.io/Personal-web-page/ </h3>
-Personal web page 2022
+Personal web page 2022-2026
 
-La página web se compone de las secciones:
-<ul>
-  <li>About me</li>
+Hola! I'm Valentina, a Colombian PhD candidate at the Australian National University. I'm currently based on Canberra-Australia. I do research on emission-line galaxies during the epoch of reionization. I am curious about other cultures and love learning new things.
 
-  <li>Education
-    <ul>
-      <li>Degrees</li>
-      <li>Research</li>
-      <li>Programming Languages</li>
-    </ul>
-   </li>
 
-  <li>Projects</li>
-  <li>Interests</li>
-  <li>Contact</li>
-</ul>  
-
-Tiene un header, barra e navegación, body con toda la información de las secciones anteriormente mencionadas y un footer
 
 
